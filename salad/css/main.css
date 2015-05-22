@@ -1,0 +1,23 @@
+/*		Super Excited to Get Started		*/
+
+/*				My Css Colors				
+	color="#8dc73f" light green
+	color="#166627" dark green
+	color="#5e0d4f" purple
+	color="#ed1848" reddish
+	color="#ffcf04" yellow
+	Otherwise they use white
+	going to use color="#363636" for black maybe?
+	color="#626262" this is a nice grey
+	font is bauhaus, cannot afford
+
+											*/
+
+aside {
+
+	font-size: 0.8em;
+	color: #626262;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
