@@ -21,3 +21,21 @@ aside {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+#topnav {
+	float: right;
+	margin-right:0%;
+	width: 100%;
+}
+#topnav ul li{
+	list-style-type: none;
+	display: inline;
+	padding:3%;
+}
+
+#bottomnav ul  li{
+	list-style-type: none;
+	display: inline;
+
+
+}
