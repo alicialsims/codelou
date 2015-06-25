@@ -11,8 +11,79 @@
 	color="#626262" this is a nice grey
 	font is bauhaus, cannot afford
 
+font-family: 'Montserrat', sans-serif;
+ font-weight: 400 OR 700;
+
+ font-family: 'Droid Sans', sans-serif;
+
 											*/
 
+/* Mobile Site */
+@media (max-width:600px) {
+	body {
+		background: none;
+	
+	}
+
+	header {
+	padding: 0;
+	border: 0;
+	background: #8dc73f;
+}
+
+	#topnav {
+}
+	#topnav ul {
+	display: none;
+}
+
+	#bottomnav ul  li{
+	list-style-type: none;
+	display: inline;
+}
+
+
+#logo {
+
+	 margin: 2% auto;
+	 float: top;
+
+}
+}
+
+
+/* Tablet Site */
+@media (min-width:600px) and (max-width:900px) {
+ #topnav select, #topnav button {
+    display:none;
+  }
+
+}
+
+/* Desktop Site */
+@media (min-width:900px) {
+ #topnav select, #topnav button {
+    display:none;
+  }
+
+}
+
+/* Constants */
+
+
+header {
+	padding: 0;
+	border: 0;
+	background: #8dc73f;
+}
+
+p {
+
+	font-family: 'Droid Sans' Arial, sans-serif ;
+}
+
+
+}
 aside {
 
 	font-size: 0.8em;
@@ -31,11 +102,27 @@ aside {
 	list-style-type: none;
 	display: inline;
 	padding:3%;
+	margin-left: 10%;
 }
 
 #bottomnav ul  li{
 	list-style-type: none;
 	display: inline;
 
+
+}
+
+h3, h2, h1 {
+	 padding: 0;
+	 font-family: 'Montserrat', sans-serif;
+}
+
+select {
+	width:70%;
+	margin: 0 0 10% 10%;
+	font-family: 'Montserrat' Arial, sans-serif ;
+}
+
+button {
 
 }
