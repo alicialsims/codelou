@@ -19,16 +19,20 @@ font-family: 'Montserrat', sans-serif;
 											*/
 
 /* Mobile Site */
-@media (max-width:600px) {
+@media (max-width:375px) {
 	body {
 		background: none;
+		padding: 0;
+		margin: 0;
+
 	
 	}
 
-	header {
+	header, nav {
 	padding: 0;
 	border: 0;
 	background: #8dc73f;
+	height: 10%;
 }
 
 	#topnav {
@@ -43,15 +47,15 @@ font-family: 'Montserrat', sans-serif;
 }
 
 
-#logo {
+	#logo {
+	display: block;
+	margin: 10px auto;
+	border-radius: 25%;
 
-	 margin: 2% auto;
-	 float: top;
 
 }
+
 }
-
-
 /* Tablet Site */
 @media (min-width:600px) and (max-width:900px) {
  #topnav select, #topnav button {
