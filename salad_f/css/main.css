@@ -1,0 +1,83 @@
+/*		Super Excited to Get Started		*/
+
+/*				My Css Colors				
+	color="#8dc73f" light green
+	color="#166627" dark green
+	color="#5e0d4f" purple
+	color="#ed1848" reddish
+	color="#ffcf04" yellow
+	Otherwise they use white
+	going to use color="#363636" for black maybe?
+	color="#626262" this is a nice grey
+	font is bauhaus, cannot afford
+
+font-family: 'Montserrat', sans-serif;
+ font-weight: 400 OR 700;
+
+ font-family: 'Droid Sans', sans-serif;
+
+											*/
+
+/* Mobile Site */
+@media (max-width:500px) {
+
+
+}
+/* Tablet Site */
+@media (min-width:500px) and (max-width:900px) {
+
+}
+
+/* Desktop Site */
+@media (min-width:900px) {
+
+}
+
+/* Constants */
+
+#logo {
+	height: 35px;
+	border-radius: 25%;
+}
+
+#lettuce {
+	display: inline-block;
+	float: right;
+
+}
+
+#bottomnav {
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*               Text                          */
+
+h3, h2, h1 {
+	 padding: 0;
+	 font-family: 'Montserrat', sans-serif;
+	 text-align: center;
+}
+
+select {
+	width:70%;
+	margin: 0 0 10% 10%;
+	font-family: 'Montserrat' Arial, sans-serif ;
+}
+
+h3 {
+	padding-left: 10px;
+	font-style: italic;
+}
+
+h1 {
+	
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	padding: 0px 25px;
+}
