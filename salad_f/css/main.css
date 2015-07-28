@@ -35,10 +35,43 @@ font-family: 'Montserrat', sans-serif;
 
 /* Constants */
 
+
+
+#note {
+	border: 4px;
+	padding: 3px;
+	border-style: solid;
+	border-color: #8dc73f;
+	border-radius: 10px;
+	background-color: #fff;
+	opacity: 0.9;
+	text-align: center;
+}
+
+.button-group {
+	padding-bottom: 10px;
+}
+.greenborder {
+
+	border: 4px;
+	border-style: solid;
+	border-color: #8dc73f;
+	border-radius: 10px;
+	background-color: #fff;
+	opacity: 0.9;
+	text-align: center;
+}
+
+/*.name {
+	background: url("../img/logo.png") no-repeat fixed ;
+	background-size: 35px 160px;
+	border-radius: 25%;
+
+}
 #logo {
 	height: 35px;
 	border-radius: 25%;
-}
+} */
 
 #lettuce {
 	display: inline-block;
@@ -46,9 +79,34 @@ font-family: 'Montserrat', sans-serif;
 
 }
 
-#bottomnav {
+.panel {
+	background: url("../img/saladbg.jpg") no-repeat 0 50% ; 
+	margin-top: 70px;
+}
+
+.footer {
+	width: 100%;
+	height: 15%;
+	bottom-margin: 0px;
+	background-color: #5e0d4f;
+	border-top: 2px;
+	border-style: solid;
+	border-color: #8dc73f;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	
+
+
+}
+
+#bottomnavholder {
+	padding-top: 10px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
-	margin: 0 auto;
+	
 }
 
 /*               Text                          */
@@ -81,3 +139,55 @@ h2 {
 p {
 	padding: 0px 25px;
 }
+
+/* MENU */
+
+.saladMenu {
+
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+.saladWrapper {
+	border: 3px;
+	border-color: #166627;
+	border-radius: 10px;
+}
+
+.saladName {
+	color: #166627;
+	font-size: 1.5em;
+
+}
+
+.saladPrice {
+	display: inline-block;
+	float: right;
+	padding:0 5px;
+
+}
+
+.wrapPrice {
+	display: inline-block;
+	float: right;
+	padding:0 5px;
+}
+
+.sugDressingTitle {}
+.sugDressing {}
+.tryItHot {}
+.tryItHot2 {}
+.tryItHot3 {}
+
+/* END MENU */
+/*
+color="#8dc73f" light green
+	color="#166627" dark green
+	color="#5e0d4f" purple
+	color="#ed1848" reddish
+	color="#ffcf04" yellow
+	Otherwise they use white
+	going to use color="#363636" for black maybe?
+	color="#626262" this is a nice grey
+	font is bauhaus, cannot afford                */

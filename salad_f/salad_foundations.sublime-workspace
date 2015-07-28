@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"background-color"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"try",
+				"tryItHot3"
+			],
+			[
+				"sug",
+				"sugDressingTitle"
+			],
+			[
 				"inli",
 				"inline-block"
 			],
@@ -39,7 +55,7 @@
 			"file": "catering.html",
 			"settings":
 			{
-				"buffer_size": 1601,
+				"buffer_size": 2396,
 				"line_ending": "Windows"
 			}
 		},
@@ -47,7 +63,7 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 1620,
+				"buffer_size": 2397,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,7 +71,7 @@
 			"file": "locations.html",
 			"settings":
 			{
-				"buffer_size": 2916,
+				"buffer_size": 3717,
 				"line_ending": "Windows"
 			}
 		},
@@ -63,7 +79,7 @@
 			"file": "menu.html",
 			"settings":
 			{
-				"buffer_size": 9101,
+				"buffer_size": 10341,
 				"line_ending": "Windows"
 			}
 		},
@@ -71,16 +87,16 @@
 			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 1150,
+				"buffer_size": 2754,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Alicia/Documents/GitHub/codelou/cv/index.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7325,
-				"line_ending": "Unix"
+				"buffer_size": 4197,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -108,6 +124,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Alicia/Documents/GitHub/codelou/salad_f/js/foundation/foundation.js",
+		"/C/Users/Alicia/Documents/GitHub/codelou/salad_f/js/foundation/foundation.topbar.js",
+		"/C/Users/Alicia/Documents/GitHub/codelou/cv/index.html",
 		"/C/Users/Alicia/Documents/GitHub/codelou/yahya/index.html",
 		"/C/Users/Alicia/Documents/GitHub/codelou/salad/main.css",
 		"/C/Users/Alicia/Documents/GitHub/codelou/salad/index.html",
@@ -123,7 +142,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -137,6 +156,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"breakpoint",
 			"auto"
 		],
 		"highlight": true,
@@ -163,15 +183,15 @@
 					"file": "catering.html",
 					"settings":
 					{
-						"buffer_size": 1601,
+						"buffer_size": 2396,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1289,
+								1289
 							]
 						],
 						"settings":
@@ -180,7 +200,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 122.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -190,15 +210,15 @@
 					"file": "contact.html",
 					"settings":
 					{
-						"buffer_size": 1620,
+						"buffer_size": 2397,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1289,
+								1289
 							]
 						],
 						"settings":
@@ -207,7 +227,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 122.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -217,15 +237,15 @@
 					"file": "locations.html",
 					"settings":
 					{
-						"buffer_size": 2916,
+						"buffer_size": 3717,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1289,
+								1289
 							]
 						],
 						"settings":
@@ -234,7 +254,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 122.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -244,15 +264,15 @@
 					"file": "menu.html",
 					"settings":
 					{
-						"buffer_size": 9101,
+						"buffer_size": 10341,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1288,
+								1288
 							]
 						],
 						"settings":
@@ -261,7 +281,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 122.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -271,15 +291,15 @@
 					"file": "css/main.css",
 					"settings":
 					{
-						"buffer_size": 1150,
+						"buffer_size": 2754,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1032,
-								1032
+								1184,
+								1184
 							]
 						],
 						"settings":
@@ -288,32 +308,31 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 690.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "/C/Users/Alicia/Documents/GitHub/codelou/cv/index.html",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 7325,
+						"buffer_size": 4197,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								4197,
+								4197
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -380,6 +399,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 123.0,
+	"side_bar_width": 62.0,
 	"status_bar_visible": true
 }

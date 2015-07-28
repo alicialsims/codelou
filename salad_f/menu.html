@@ -1,15 +1,45 @@
-
 <!doctype html>
 
 <html> 
 <head>
 	<title> Chop Shop Salads | Dine-in, Delivery & Catering </title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/foundation.css">
+	<link rel="stylesheet" type="text/css" href="css/foundation.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 	
 <header>
+	
+<div class="contain-to-grid">
+	<nav class="top-bar" role="navigation" data-topbar>
+		<ul class="title-area">
+			<li class="name">
+				<h1><a href="index.html">Chop Shop Salads</a></h1>
+			</li>
+				
+				<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a>
+				</li>
+
+		</ul>
+
+		<section class="top-bar-section">
+			<ul class="right">
+			<li class="active"><a href="index.html" alt="Home" class="nav_selected"> Home </a></li>
+			<li><a href="menu.html" alt="Menu">Menu </a></li>
+			<li><a href="catering.html" alt="Catering">Catering </a></li>
+			<li><a href="locations.html" alt="Locations">Locations </a></li>
+			<li><a href="contact.html" alt="Contact">Contact </a></li>
+			
+  </ul>
+		</ul>
+	
+	</nav>
+	</div>
+<!--	<h3> Now Chopping </h3> -->
+	</header>
 
 	<h3> Now Chopping </h3>
 
@@ -24,6 +54,7 @@
 	</nav>
 </header>
 
+<!-- content -->
 
 <div id="saladMenu">
 
@@ -240,7 +271,7 @@
 
 
 
-
+<!-- end content -->
 	+++++++
 
 
@@ -250,25 +281,29 @@
 
 
 	<footer>
+<div class="footer">
+<div id="bottomnavholder">
 <nav id="bottomnav">
-		<ul>
-			<li><a href="index.html" alt="Home"> Home </a> | </li>
-			<li><a href="menu.html" alt="Menu" class="nav_selected">Menu </a> | </li>
-			<li><a href="catering.html" alt="Catering">Catering </a> | </li>
-			<li><a href="locations.html" alt="Locations">Locations </a> | </li>
-			<li><a href="contact.html" alt="Contact">Contact </a></li>
-
+	
+		<ul class="inline-list">
+			<li><a href="index.html" alt="Home" class="nav_selected"> Home </a></li> 
+			<li><a href="menu.html" alt="Menu">Menu </a>  </li>
+			<li><a href="catering.html" alt="Catering">Catering </a> </li>
+			<li><a href="locations.html" alt="Locations">Locations </a></li>
+			<li><a href="contact.html" alt="Contact">Contact </a> </li>
 		</ul>
-	</nav>
+	
+	</nav></div>
 
 
-	</footer>
+
 
 <aside>
-	<P>I do not own nor have any permissions from the Chop Shop to use their imagery or name in any way. I am remaking their webpage nearly as a fan and customer (as a learning tool). Please do not distribute any of the images or content. </P>
+	<P>I do not own nor have any permissions from the Chop Shop to use their imagery or name in any way. I am remaking their webpage as a fan and customer (as a learning tool). Please do not distribute any of the images or content. </P>
 </aside>
-
-<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+	</div></footer>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/foundation.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/foundation/foundation.topbar.js" type="text/javascript" charset="utf-8"></script>
+	<script> $(document).foundation('topbar') </script>
 </body>
-</html>

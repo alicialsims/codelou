@@ -13,12 +13,16 @@
 	
 <header>
 	
-
-	<nav id="topnav" class="top-bar">
+<div class="contain-to-grid">
+	<nav class="top-bar" role="navigation" data-topbar>
 		<ul class="title-area">
 			<li class="name">
-				<h1><a href="index.html"><img src="img/logo.png" alt="The Chop Shop" id="logo"></a></h1>
+				<h1><a href="index.html">Chop Shop Salads</a></h1>
 			</li>
+				
+				<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a>
+				</li>
+
 		</ul>
 
 		<section class="top-bar-section">
@@ -28,22 +32,32 @@
 			<li><a href="catering.html" alt="Catering">Catering </a></li>
 			<li><a href="locations.html" alt="Locations">Locations </a></li>
 			<li><a href="contact.html" alt="Contact">Contact </a></li>
+			
+  </ul>
 		</ul>
 	
 	</nav>
-	
+	</div>
 <!--	<h3> Now Chopping </h3> -->
 	</header>
 	<section class="intro">
-		<div id="opener" class="panel">
-		<h1> Chop Shop Salads </h1>
+		<div id="opener" class="row panel">
+			<div class="large-8 medium-8 small-12 columns">
+		<h1 class="greenborder"> Chop Shop Salads </h1>
 	
 		<div id="note"> 
 			<p>Whether you want to enjoy a casual dining experience with family or hire catering service for your friends, chop shop salads in Louisville, Kentucky, is here for you. Using 5 years of experience, we serve up the best salads, wraps, and soups that are available for dine-in, carryout, delivery, and catering. We deliver our food throughout the St. Matthews and Louisville area, so get in touch with us today to place your order.</P>
-			
-			<img  id="lettuce" src="img/lettuce.png" alt="Catering Services, Delivery, Carry-out, or Dine-In Services Available">
+				<p class="button-group radius">
+					<a class="button success" href="locations.html">Visit Us</a>
+					<a class="button" href="menu.html">Check the Menu</a>
+				</p>
+		</div></div>
+		<div class="large-4 medium-4 columns hide-for-small-only">
+			<img id="lettuce" src="img/lettuce.png" alt="Catering Services, Delivery, Carry-out, or Dine-In Services Available">
+		</div>
 		</div>
 
+			</div>
 	</section>
 
 	<section class="moreinfo">
@@ -52,6 +66,7 @@
 			<h2>Make-Your-Own Salads & Wraps</h2>
 
 <p>At chop shop salads, we offer a healthy alternative to your usual lunch or dinner. For just $8, you can enjoy fresh, high-quality meals like salads, soups, wraps, and seasonal items. Our salads and wraps are made the way you like it, so you can feel certain you'll enjoy your meal to the last bite.</p>
+	
 		</div>
 		
 		<div class="large-6 medium-6 column">
@@ -66,7 +81,10 @@ Treat your loved ones to a quality dining experience. Our restaurant is one of t
 	</section>
 
 	<footer>
+<div class="footer">
+<div id="bottomnavholder">
 <nav id="bottomnav">
+	
 		<ul class="inline-list">
 			<li><a href="index.html" alt="Home" class="nav_selected"> Home </a></li> 
 			<li><a href="menu.html" alt="Menu">Menu </a>  </li>
@@ -74,7 +92,8 @@ Treat your loved ones to a quality dining experience. Our restaurant is one of t
 			<li><a href="locations.html" alt="Locations">Locations </a></li>
 			<li><a href="contact.html" alt="Contact">Contact </a> </li>
 		</ul>
-	</nav>
+	
+	</nav></div>
 
 
 
@@ -82,9 +101,10 @@ Treat your loved ones to a quality dining experience. Our restaurant is one of t
 <aside>
 	<P>I do not own nor have any permissions from the Chop Shop to use their imagery or name in any way. I am remaking their webpage as a fan and customer (as a learning tool). Please do not distribute any of the images or content. </P>
 </aside>
-	</footer>
-	<script src="js/foundation.min.js" type="text/javascript" charset="utf-8"></script>
+	</div></footer>
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
-	<!--<script src="js/app.js" type="text/javascript" charset="utf-8"></script>-->
+	<script src="js/foundation.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/foundation/foundation.topbar.js" type="text/javascript" charset="utf-8"></script>
+	<script> $(document).foundation('topbar') </script>
 </body>
 </html>
