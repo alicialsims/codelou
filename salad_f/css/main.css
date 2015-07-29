@@ -79,7 +79,7 @@ font-family: 'Montserrat', sans-serif;
 
 }
 
-.panel {
+.calloutpanel {
 	background: url("../img/saladbg.jpg") no-repeat 0 50% ; 
 	margin-top: 70px;
 }
@@ -142,29 +142,90 @@ p {
 
 /* MENU */
 
-.saladMenu {
+#menupage {
+	background: url("../img/salad1.jpg") no-repeat fixed ;
+}
+.menupanel {
+	width: 70%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px;
+	padding: 30px;
+	border-style: solid;
+	border-color: #8dc73f;
+	border-radius: 10px;
+	background: #fff;
+	opacity: .95;
+}
 
- margin-left: auto;
- margin-right: auto;
+.menupanel > h3 {
+	color: #5e0d4f;
+}
+
+.accordion-navigation {
+	width: 70%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px;
+	padding: 30px;
+	border-style: solid;
+	border-color: #5e0d4f;
+	border-radius: 10px;
+	
+	background: #fff;
+	opacity: .95;
+
+}
+#saladMenu {
+	width: 70%;
+ 	margin-left: auto;
+ 	margin-right: auto;
 
 }
 
 .saladWrapper {
-	border: 3px;
-	border-color: #166627;
+	padding: 30px;
+	border: 4px;
+	border-style: solid;
+	border-color: #8dc73f;
 	border-radius: 10px;
+	background-color: #fff;
+	opacity: 1;
 }
 
 .saladName {
 	color: #166627;
 	font-size: 1.5em;
+	padding-top: 10px;
 
 }
 
+.teaserclick {
+	padding-left: 25px;
+	padding-top: 0px;
+	font-size: .6em;
+	font-style: italic;
+	font-color: #909090;
+
+}
+
+.ingredients {
+	font-size: .8em;
+}
+.extraToppings {
+font-size: .8em;
+
+
+}
 .saladPrice {
 	display: inline-block;
 	float: right;
 	padding:0 5px;
+	color: #5e0d4f;
+	font-size: .8em;
+	font-weight: bold;
 
 }
 
@@ -172,13 +233,33 @@ p {
 	display: inline-block;
 	float: right;
 	padding:0 5px;
+	color: #ed1848;
+	font-size: 1em;
+	font-weight: bold;
 }
 
-.sugDressingTitle {}
-.sugDressing {}
-.tryItHot {}
-.tryItHot2 {}
-.tryItHot3 {}
+.sugDressingTitle {
+	font-style: italic;
+	font-weight: bold;
+	padding-bottom: 0;
+	color: #5e0d4f;
+}
+.sugDressing {
+	font-size: .8em;
+	padding-top: 0;
+	padding-left: 30px;
+	padding-bottom: 20px;
+
+}
+.tryItHot {
+	font-size: .8em;
+}
+.tryItHot2 {
+	font-size: .8em;
+}
+.tryItHot3 {
+	font-size: .8em;
+}
 
 /* END MENU */
 /*
