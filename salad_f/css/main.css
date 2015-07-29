@@ -261,7 +261,48 @@ font-size: .8em;
 	font-size: .8em;
 }
 
-/* END MENU */
+/* CATERING */
+#cateringpage {
+	background: url("../img/salad2.jpg") no-repeat fixed;
+
+}
+
+.cateringpanel {
+	width: 70%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px;
+	padding: 30px;
+	border-style: solid;
+	border-color: #5e0d4f;
+	border-radius: 10px;
+	background-color: #fff;
+	opacity: 1;
+
+}
+
+#cateringform {
+	width: 70%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px;
+	padding: 30px;
+	border-style: solid;
+	border-color: #5e0d4f;
+	border-radius: 10px;
+	background-color: #fff;
+	opacity: 1;
+	
+}
+
+.formbuttons {
+	position: relative;
+	text-align: center;
+
+}
+
 /*
 color="#8dc73f" light green
 	color="#166627" dark green
