@@ -303,6 +303,88 @@ font-size: .8em;
 
 }
 
+/* Locations Page */
+
+#locationspage {
+	background: url("../img/salad1.jpg") no-repeat fixed ;
+}
+#locationspanel {
+	width: 70%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px;
+	padding: 30px;
+	border-style: solid;
+	border-color: #8dc73f;
+	border-radius: 10px;
+	background: #fff;
+	opacity: .95;
+}
+
+#locationspanel > h3 {
+	color: #5e0d4f;
+}
+
+.locationswrapper {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px;
+	padding: 30px;
+	border-style: solid;
+	border-color: #8dc73f;
+	border-radius: 10px;
+	background: #fff;
+	opacity: .95;
+}
+
+#mapCanvas, #mapCanvas2, #mapCanvas3, #mapCanvas4 {
+        width: 250px;
+        height: 250px;
+        background: #ccc;
+        border: 4px;
+		border-style: solid;
+		border-color: #8dc73f;
+		border-radius: 10px;
+		margin-left: auto;
+		margin-right: auto;
+      }
+li {
+	list-style: none;
+}
+
+.locations {
+	text-align: center;
+}
+.locations < div {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Contact/ About Us */
+
+#contactpage {
+	background: url("../img/salad2.jpg") no-repeat fixed;
+
+}
+
+.contactpanel {
+	width: 70%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px;
+	padding: 30px;
+	border-style: solid;
+	border-color: #5e0d4f;
+	border-radius: 10px;
+	background-color: #fff;
+	opacity: 1;
+
+}
+
+
 /*
 color="#8dc73f" light green
 	color="#166627" dark green

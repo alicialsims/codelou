@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/foundation.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-<body>
+<body id="locationspage">
 	
 <header>
 	
@@ -42,65 +42,61 @@
 <!--	<h3> Now Chopping </h3> -->
 	</header>
 
-	<section>
-		<h1>Locations</h1>
-		<p>Some sort of copy here</p>
+	<section><div id="locationspanel" class="panel">
+		<h3>Locations</h3>
+		<p>Come visit us for a superb dining experience. Try us out at our newest store in Nashville or visit the flagship store in downtown Louisville. </p>
+</div>
+	<section><div class="locationswrapper"> 
 
-	<section>
-			<div id="stmatsloc">
-				<h2>St. Matthews</h2>
+		<div class="row">
+			<div class="locations column large-6 medium-6">
+				<h3>St. Matthews</h3>
 				<ul>
 					<li>mon. - sat. 11am - 9 pm </li>
 					<li>sun. 11 am - 8pm </li>
 					<li><a href="tel:502-384-4252" alt="St. Matthews Phone">(502) 384 - 4252</a></li>
-					<li><img src="img/stmatsmap.png" alt="Map of St. Matthews Location"></li>
+					<li><div id="mapCanvas"></div></li>
+					<li>126 Breckenridge Ln #1</li>
 				</ul>
 			</div>
 
-			<div id="downtownloc">
-				<h2>Downtown</h2>
+			<div class="locations column large-6 medium-6">
+				<h3>Downtown</h3>
 				<ul>
 					<li> monday - friday 11am - 3pm </li>
+					<li>Sat-Sun closed</li>
 					<li><a href="tel:502-589-2467" alt="Downtown Phone">(502) 589 - 2467</a></li>
-					<li><img src="img/downtownmap.png" alt="Map of Downtown Location"></li>
+					<li><div id="mapCanvas2"></div></li>
+					<li>436 West Market St</li>
+
 				</ul>
 				
-			</div>
-
-			<div id="shelbyhurstloc">
-				<h2>Shelbyhurst</h2>
+			</div></div>
+				<div class="row">
+			<div class="locations column large-6 medium-6">
+				<h3>Shelbyhurst</h3>
 				<ul>
 					<li>mon - sat 11am - 9pm</li>
 					<li>sun 11 am - 8pm</li>
 					<li><a href="tel:502-365-1473" alt="Shelbyhurst Phone">(502) 365 - 1473</a></li>
-					<li><img src="img/shelbyhurstmap.png" alt="Map of Shelbyhurst Location"></li>
+					<li><div id="mapCanvas3"></div></li>
+					<li>209 N Hurstbourne Pkwy</li>
 				</ul>
 			</div>
 
-				<div id="nashvilleloc">
-				<h2>Nashville</h2>
+				<div class="locations column large-6 medium-6">
+				<h3>Nashville</h3>
 				<ul>
 					<li>mon - sat 11am - 9pm</li>
 					<li>sun 11 am - 8pm</li>
 					<li><a href="tel:615-490-3134" alt="Nashville Phone">(615) 490 - 3134</a></li>
-					<li><img src="img/nashvillemap.png" alt="Map of Nashville Location"></li>
+					<li><div id="mapCanvas4"></div></li>
+					<li>2424 Ellison Pl</li>
 				</ul>
-			</div>
-
+			</div></div>
+ </div>
 	</section>
-
-
-
-
-
-
-	+++++++
-
-
-
-
-
-
+	<p></p><p></p>
 
 
 	<footer>
@@ -126,6 +122,8 @@
 </aside>
 	</div></footer>
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	 <script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script src="js/googlemapsapi.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/foundation.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/foundation/foundation.topbar.js" type="text/javascript" charset="utf-8"></script>
 	<script> $(document).foundation('topbar') </script>
